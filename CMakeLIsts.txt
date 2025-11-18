@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.16)
+project(arkanoid-sdl2 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Use vcpkg toolchain at configure time:
+# cmake -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+
+find_package(SDL2 CONFIG REQUIRED)
+find_package(SDL2_ttf CONFIG REQUIRED)
+
+include_directories(${SDL2_INCLUDE_DIRS})
+
+file(GLOB SRC src/*.cpp src/*.h)
+
+add_executable(arkanoid ${SRC})
+
+# Link libs from vcpkg-provided targets
+target_link_libraries(arkanoid PRIVATE SDL2::SDL2 SDL2::SDL2main SDL2_ttf::SDL2_ttf)
+
+# On Windows, to avoid console window (optional): uncomment next line for GUI subsystem
+# set_target_properties(arkanoid PROPERTIES LINK_FLAGS "/SUBSYSTEM:WINDOWS")

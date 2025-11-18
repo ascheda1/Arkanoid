@@ -1,3 +1,0 @@
-C:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build/CMakeFiles/arkanoid.dir
-C:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build/CMakeFiles/ZERO_CHECK.dir
