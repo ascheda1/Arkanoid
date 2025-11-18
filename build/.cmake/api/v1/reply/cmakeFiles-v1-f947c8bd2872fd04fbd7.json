@@ -1,0 +1,191 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLIsts.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc1/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/sdl2/sdlfind.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttfConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttfConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttf-shared-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttf-shared-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/danas/Documents/PHVR/Bagira/vcpkg/installed/x64-windows/share/SDL2_ttf/SDL2_ttf-shared-targets-release.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build",
+		"source" : "C:/Users/danas/Documents/PHVR/Bagira/Arkanoid"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

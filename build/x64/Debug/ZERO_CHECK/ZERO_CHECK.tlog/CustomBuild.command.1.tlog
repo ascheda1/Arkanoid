@@ -1,0 +1,10 @@
+^C:\USERS\DANAS\DOCUMENTS\PHVR\BAGIRA\ARKANOID\BUILD\CMAKEFILES\24266526CF6ABCA820027C7D38E062D2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danas/Documents/PHVR/Bagira/Arkanoid -BC:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danas/Documents/PHVR/Bagira/Arkanoid/build/arkanoid-sdl2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
