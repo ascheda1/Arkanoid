@@ -7,35 +7,38 @@
 #include "Paddle.h"
 #include "Ball.h"
 #include "Brick.h"
+#include "Bonus.h"
 
-class Game {
+class game
+{
 public:
-    Game();
-    ~Game();
+    game();
+    ~game();
 
-    bool init(const char* title, int w, int h);
+    bool init(const char *title, int w, int h);
     void run();
 
 private:
-    void handleEvents();
+    void handle_events();
     void update(float dt);
     void render();
-    void resetLevel();
-    void spawnBricks();
-    bool allBallsNotActive();
+    void reset_level();
+    void spawn_bricks();
+    bool all_balls_not_active();
 
-    SDL_Window* window = nullptr;
-    SDL_Renderer* renderer = nullptr;
-    TTF_Font* font = nullptr;
+    SDL_Window *window = nullptr;
+    SDL_Renderer *renderer = nullptr;
+    TTF_Font *font = nullptr;
 
     int winW = 800;
     int winH = 600;
 
     bool running = false;
-    Paddle* paddle = nullptr;
-    //Ball* ball = nullptr;
-    std::vector<Ball*> balls;
-    std::vector<std::unique_ptr<Brick>> bricks;
+    paddle *m_paddle = nullptr;
+    // ball* ball = nullptr;
+    std::vector<ball *> balls;
+    std::vector<std::unique_ptr<brick>> bricks;
+    std::vector<bonus *> bonuses;
 
     int score = 0;
     int ballsLeft = 3;
