@@ -8,6 +8,7 @@ Paddle, ball, bricks, scoring, lives, and basic collision mechanics are implemen
 - Ball physics with reflections
 - Multiple rows of bricks with different colors and scores
 - Score and remaining lives displayed on screen
+- Bonus ball doubling when cought
 - Game restarts when player wins or runs out of balls
 
 ## Build Instructions (Windows)
