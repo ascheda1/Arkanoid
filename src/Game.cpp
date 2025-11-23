@@ -294,9 +294,10 @@ void game::update(float dt)
             // player wins -> reset level (could show message)
             running = false;
             reset_level();
-            std::this_thread::sleep_for(std::chrono::milliseconds(500));
+            // std::this_thread::sleep_for(std::chrono::milliseconds(500));
             spawn_bricks();
             running = true;
+            return;
         }
     }
     for (auto b : balls)
