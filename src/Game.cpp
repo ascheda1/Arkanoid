@@ -183,7 +183,7 @@ void game::update(float dt)
     }
 
     // if ball not active, keep it on paddle
-    if (!balls.empty() && !balls.at(0)->active)
+    if (balls.size() == 1 && !balls.at(0)->active)
     {
         balls.at(0)->reset_on_paddle(m_paddle->rect);
     }
